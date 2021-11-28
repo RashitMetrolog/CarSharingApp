@@ -1,0 +1,15 @@
+server:
+  port: 2223
+
+cxf:
+  path: /
+  jaxrs:
+    component-scan: true
+
+
+car-sharing-app:
+#  service:
+#    car-process: http://localhost:2222/rs
+  kafka:
+    bootstrap-servers: 127.0.0.1:9092
+    topic-name: car_request_topic
