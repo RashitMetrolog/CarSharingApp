@@ -5,6 +5,7 @@ cxf:
   path: /
   jaxrs:
     component-scan: true
+    classes-scan-packages: org.codehaus.jackson.jaxrs
 
 
 car-sharing-app:
