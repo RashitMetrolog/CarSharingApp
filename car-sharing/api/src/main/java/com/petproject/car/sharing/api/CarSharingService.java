@@ -5,6 +5,7 @@ import com.petproject.car.sharing.api.request.CarRequest;
 
 import javax.validation.Valid;
 import javax.ws.rs.*;
+import javax.ws.rs.core.MediaType;
 
 @Path("cars")
 @Produces("application/json;charset=UTF-8")
@@ -22,6 +23,7 @@ public interface CarSharingService {
 
     @POST
     @Path("/reserve")
+    @Consumes(MediaType.APPLICATION_JSON)
         //TODO: подумать про ответ из кафки
     void reserve(CarRequest request);
 
