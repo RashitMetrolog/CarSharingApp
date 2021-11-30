@@ -12,8 +12,8 @@ car-sharing-app:
     s3:
       credentials:
         region: eu-north-1
-        access-key: AKIAWJSX4WDT26A7DT2K
-        secret-key: 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
+        access-key:
+        secret-key:
       bucket-name: petproject-cars-s3-bucket-2021
   kafka:
     bootstrap-servers: 127.0.0.1:9092
