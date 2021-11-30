@@ -10,6 +10,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>car-sharing</module>
+        <module>aws-s3</module>
     </modules>
 
     <parent>
@@ -59,8 +60,6 @@
             <artifactId>cxf-spring-boot-starter-jaxrs</artifactId>
             <version>3.4.5</version>
         </dependency>
-
-
 
     </dependencies>
 
